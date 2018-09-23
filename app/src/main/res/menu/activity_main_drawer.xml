@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Play"
+            android:checkable="false"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Play" />
+        <item
+            android:id="@+id/nav_leaderboards"
+            android:checkable="false"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Leaderboards" />
+    </group>
+    <group />
+    <item
+        android:id="@+id/nav_signin"
+        android:icon="@drawable/googleg_standard_color_18"
+        android:title="Sign In" />
+
+</menu>
